@@ -1,0 +1,19 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+mainpage:
+    path: /mainpage
+    controller: App\Controller\MainPage::number
+
+
+login:
+    path: /login
+    defaults:
+        _controller: Controller:login
+
+login_check:
+    path: /login_check
+
+logout:
+    path: /logout
